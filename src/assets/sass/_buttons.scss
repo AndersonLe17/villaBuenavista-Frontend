@@ -1,0 +1,15 @@
+.btn {
+  font-family: $exo;
+  font-weight: 500;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  &-process {
+    background-color: $red-regular;
+    color: $white;
+    &:hover {
+      background-color: $red-variant;
+      color: $white;
+
+    }
+  }
+}
